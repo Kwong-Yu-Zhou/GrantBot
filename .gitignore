@@ -1,0 +1,31 @@
+@"
+# --- Node/React ---
+node_modules/
+dist/
+build/
+.vite/
+.next/
+out/
+coverage/
+*.log
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Env / secrets ---
+.env
+.env.*.local
+
+# --- Python (your upload script) ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+uploads/
+
+# --- OS / Editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+"@ | Set-Content -NoNewline .gitignore
